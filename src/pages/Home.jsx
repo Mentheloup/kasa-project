@@ -5,3 +5,5 @@ function Home() {
         <Banner />
     )
 }
+
+export default Home
