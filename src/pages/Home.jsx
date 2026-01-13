@@ -1,8 +1,12 @@
-import Banner from "../components/Banner/banner";
+import Banner from '../components/Banner/banner'
+import Header from '../components/Header/header'
 
 function Home() {
     return (
-        <Banner />
+        <>
+            <Header/>
+            <Banner />
+        </>
     )
 }
 
