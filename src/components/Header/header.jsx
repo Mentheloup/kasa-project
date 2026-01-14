@@ -1,6 +1,6 @@
 import './header.scss'
 import { Link } from "react-router"
-import kasaLightLogo from '../../assets/kasa_logo_light.png'
+import kasaLightLogo from '../../assets/logo/kasa_logo_light.png'
 
 function Header() {
     return (
