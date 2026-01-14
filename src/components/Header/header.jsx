@@ -1,16 +1,28 @@
 import './header.scss'
-import { Link } from "react-router"
 import kasaLightLogo from '../../assets/logo/kasa_logo_light.png'
+import { NavLink } from 'react-router'
 
 function Header() {
     return (
-        <header>
-            <img src={kasaLightLogo} alt="Logo Kasa Dark"/>
-            <div className='right'>
-                <Link className='navButton' to="/">Accueil</Link>
-                <Link className='navButton' to="/about">A propos</Link>
-            </div>
-        </header>
+    <>
+        <img src={kasaLightLogo} alt="Logo Kasa Dark"/>
+            <nav className='right'>
+                <NavLink
+                to="/"
+                className={({ isActive }) => isActive ? "active" : ""
+                }
+                >
+                Accueil
+                </NavLink>
+                <NavLink
+                to="/about"
+                className={({ isActive }) => isActive ? "active" : ""
+                }
+                >
+                A propos
+                </NavLink>
+            </nav>
+    </>
     )
 }
 
