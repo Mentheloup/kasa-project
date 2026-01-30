@@ -1,8 +1,11 @@
+import Banner from '../components/Banner/banner'
+import photoMountain from '../assets/pictures/photo_mountain.png'
+
 function About() {
     return (
-        <div>
-            <h1>About</h1>
-        </div>
+        <>
+            <Banner picture = {photoMountain} text = ''/>
+        </>
     )
 }
 
