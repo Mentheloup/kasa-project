@@ -31,3 +31,8 @@
     font-family: var(--primary-font);
     margin: 12px;
 }
+
+.arrow:hover {
+    transform: rotate(180deg);
+    transition: transform 1000ms;
+}
