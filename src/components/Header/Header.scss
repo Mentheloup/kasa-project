@@ -1,13 +1,16 @@
 header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: normal;
-
     width: 100%;
     height: 70px;
+}
+
+.header-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
 }
 
 
@@ -30,6 +33,10 @@ header h1{
     font-weight: 500;
 
     margin: 1em;
+}
+
+.navButton:last-child {
+    margin-right: 0;
 }
 
 .navButton:hover {
