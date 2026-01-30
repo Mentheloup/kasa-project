@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: space-around;
 
-    font-family: 'Montserrat';
-    color: #FF6060;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
 }
 
 .errorPage h1 {
@@ -23,7 +23,7 @@
 .backButton {
     color: black;
 
-    font-family: 'Montserrat';
+    font-family: var(--primary-font);
     font-weight: 500;
 
     margin: 1em;

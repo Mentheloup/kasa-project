@@ -2,6 +2,7 @@ import { router } from './components/Router.jsx'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router'
+import './styles/variables.scss'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>

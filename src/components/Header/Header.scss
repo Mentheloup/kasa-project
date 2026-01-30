@@ -21,7 +21,7 @@ header {
 
 header h1{
     background-color: white;
-    color: #FF6060;
+    color: var(var(--primary-color));
 }
 
 .navButton {
@@ -29,7 +29,7 @@ header h1{
 
     text-decoration: none;
 
-    font-family: 'Montserrat';
+    font-family: var(--primary-font);
     font-weight: 500;
 
     margin: 1em;
