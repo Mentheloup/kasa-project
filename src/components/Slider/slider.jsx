@@ -7,9 +7,12 @@ function Slider () {
     return (
         <div className='slider'>
             {valeurs.map ((chaqueValeur) =>
-                <div key={chaqueValeur.id} className="sliderBox">
-                    <h1>{chaqueValeur.name}</h1>
-                    <FontAwesomeIcon icon={faAngleUp} size='xl' />
+                <div key={chaqueValeur.id}>
+                    <div className="sliderBox">
+                        <h1>{chaqueValeur.name}</h1>
+                        <FontAwesomeIcon icon={faAngleUp} size='xl' />
+                    </div>
+                    <p>{chaqueValeur.text}</p>
                 </div>
             )}
             

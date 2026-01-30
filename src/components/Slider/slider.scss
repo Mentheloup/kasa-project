@@ -18,10 +18,16 @@
 
     border-radius: 5px;
     padding: 10px 15px 10px 15px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .sliderBox h1 {
     font-size: 24px;
     margin: 0px;
+}
+
+.slider p {
+    width: 80vh;
+    font-family: var(--primary-font);
+    margin: 12px;
 }
