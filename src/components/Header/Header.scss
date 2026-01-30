@@ -12,8 +12,8 @@ header {
 
 
 .right {
-  display: flex;
-  margin-left: auto;
+    display: flex;
+    margin-left: auto;
 }
 
 header h1{
@@ -23,7 +23,11 @@ header h1{
 
 .navButton {
     color: black;
+
     text-decoration: none;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
 
     margin: 1em;
 }
