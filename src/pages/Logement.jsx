@@ -1,7 +1,10 @@
+import Carroussel from '../components/Carroussel/carroussel'
+import annonces from '../datas/annonces.json'
+
 function Logement() {
     return (
         <div>
-            <h1>Logement</h1>
+            <Carroussel picture={annonces[1].cover}/>
       </div>
     )
 }

@@ -9,7 +9,7 @@ export default function Card () {
                 {annonces.map ((chaqueAnnonce) =>
                 <div key={chaqueAnnonce.id} className='card'>
                     <h2>{chaqueAnnonce.title}</h2>
-                    <NavLink to="/logement/">
+                    <NavLink to="/logement">
                         <img className='locationPicture' src={chaqueAnnonce.cover} alt="Photo d'une location" />
                     </NavLink>
                 </div>
